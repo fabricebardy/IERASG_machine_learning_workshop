@@ -12,6 +12,7 @@ We are going to use Google Colab for the tutorial session
 
 ```
 !git clone https://github.com/ildoonet/tf-pose-estimation.git
+```
 
 ### Mount your Google Drive
 
@@ -20,6 +21,7 @@ from google.colab import drive
 drive.mount('/content/drive/')
 
 ```
+
 ### Check your Folder Data
 
 ```
