@@ -18,6 +18,7 @@ We are going to use Google Colab for the tutorial session
 ```
 from google.colab import drive
 drive.mount('/content/drive/')
+
 ```
 ### Check your Folder Data
 
