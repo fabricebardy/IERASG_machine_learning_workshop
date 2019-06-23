@@ -11,7 +11,7 @@ We are going to use Google Colab for the tutorial session
 ### Cloning Github Repo to Google Colab
 
 ```
-!git clone https://github.com/ildoonet/tf-pose-estimation.git
+!git clone https://github.com/fabricebardy/IERASG_machine_learning_workshop.git
 ```
 
 ### Mount your Google Drive
