@@ -19,11 +19,32 @@ We are going to use Google Colab for the tutorial session
 ```
 from google.colab import drive
 drive.mount('/content/drive/')
-
 ```
 
 ### Check your Folder Data
 
 ```
 !ls Drive/test
+```
+### Upload code from your system
+
+```
+from google.colab import files
+uploaded = files.upload()
+```
+### Make zip file of your Data
+
+```
+from google.colab import files
+import zipfile
+import sys
+foldername = 'your folder or filename'
+zipfile.ZipFile('Drive/'+foldername + '.zip', 'w', zipfile.ZIP_DEFLATED)
+```
+
+### Downloading the data from the colab
+
+```
+from google.colab import files
+files.download('Drive/test.zip')
 ```
