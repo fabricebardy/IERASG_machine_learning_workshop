@@ -8,17 +8,17 @@ We are going to use Google Colab for the tutorial session
 - Open your google Drive
 - Create a new notebook via Right Click > More > Colaboraty
 
-### Cloning Github Repo to Google Colab
-
-```
-!git clone https://github.com/fabricebardy/IERASG_machine_learning_workshop.git
-```
-
 ### Mount your Google Drive
 
 ```
 from google.colab import drive
 drive.mount('/content/drive/')
+```
+
+### Cloning Github Repo to Google Colab
+
+```
+!git clone https://github.com/fabricebardy/IERASG_machine_learning_workshop.git
 ```
 
 ### Check your Folder Data
