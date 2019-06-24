@@ -14,6 +14,14 @@ We are going to use Google Colab for the tutorial session
 from google.colab import drive
 drive.mount('/content/drive/')
 ```
+It would need a authentication process. Do whatever it needs.
+
+### Set current directory the path you want to clone the GIt projet 
+
+```
+path_clone = "drive/My Drive/"
+!cd path_clone
+```
 
 ### Cloning Github Repo to Google Colab
 
